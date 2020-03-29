@@ -65,12 +65,12 @@ public class Alibaba {
 		sellers.add(book_depot);
 		
 		// Create all the customers and their orders
-		Customer eric = new Customer("Eric Harris");
+		Customer ninja = new Customer("Ninja Fortnite");
 		Customer casper = new Customer("Casper Kauffmann");
 		Customer owen = new Customer("Owen Elderbroek");
 		
-		placeIncomingOrder(new IncomingOrder(cz_75, 1, eric));
-		placeIncomingOrder(new IncomingOrder(playing_cards, 2, eric));
+		placeIncomingOrder(new IncomingOrder(cz_75, 1, ninja));
+		placeIncomingOrder(new IncomingOrder(playing_cards, 2, ninja));
 		placeIncomingOrder(new IncomingOrder(project_management, 1, casper));
 		placeIncomingOrder(new IncomingOrder(vga_hdmi_adapter, 2, casper));
 		placeIncomingOrder(new IncomingOrder(fire_and_flames, 1, owen));
